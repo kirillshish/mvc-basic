@@ -1,0 +1,183 @@
+/* Start - layouts/default.php */
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    background-color:#f4f4f4;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.fixing-container{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1220px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+    height: 100px;
+    background-color: #373737;
+    color: #f4f4f4;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: 800;
+    font-size: 35px;
+    width: 40%;
+    padding-top: 25px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-around;
+    padding-top: 37px;
+}
+.navbar a{
+    color: #f4f4f4;
+}
+.content{
+    display: flex;
+    flex: 1 0 auto;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+    height: 100px;
+    background-color: #373737;
+    color: #f4f4f4;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/* End - layouts/default.php */
+/* Start - catalog/show.php */
+.catalog-show{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:100%;
+    margin-bottom: 30px;
+}
+.page-title{
+    color: #373737;
+}
+.categories {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.category-title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.category-name{
+    display: flex;
+    color: #373737;
+    font-weight: 800;
+    font-size: 20px;
+    flex: 0 0 auto;
+}
+.flexblock{
+    display: flex;
+    flex: 1 0 auto;
+}
+.category-show-all{
+    display: flex;
+    flex: 0 0 auto;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #999999;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+}
+.product-name{
+    display: flex;
+    height: 40px;
+    flex: 0 0 auto;
+    justify-content: center;
+    margin-top: 5px;
+}
+.product-img-laptop{
+    display: flex;
+    flex: 1 0 auto;
+    height: 80px;
+    width: 170px;
+}
+.product-img-phone{
+    display: flex;
+    flex: 1 0 auto;
+    height: 80px;
+    width: 65px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.product-img-games{
+    display: flex;
+    flex: 1 0 auto;
+    height: 80px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-img-photo-video{
+    display: flex;
+    flex: 1 0 auto;
+    height: 100px;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.product-price{
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+}
+/* End - catalog/show.php */
